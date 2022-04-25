@@ -1,0 +1,127 @@
+:root{
+    --azul-marinho:#01012b;
+    --azul-ciano:#05d9e8;
+    --branco-azul:#d1f7ff;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base */
+body{
+    background-color: var(--azul-marinho);
+    font-family: 'Lato', sans-serif;
+    color:var(--branco-azul);
+}
+
+header .container-override{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--azul-ciano);
+    font-family: 'Turret Road', cursive;
+    font-size: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--branco-azul);
+    margin-right: 8px;
+}
+
+header nav a:hover{
+    color:whitesmoke;
+}
+
+/* Series */
+
+.serie-destaque{
+    font-size: 18px;
+    color: var(--branco-azul);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.destaque-um{
+    background: linear-gradient(rgba(1,1,43,.45),rgba(1,1,43,.45)), url('../img/cover-spyx.jpg');
+    background-size: cover;
+    height: 600px;
+    
+}
+.destaque-dois{
+    background: linear-gradient(rgba(1,1,43,.45),rgba(1,1,43,.45)), url('../img/cover-steins.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+
+.serie-destaque .titulo{
+    margin-left: 10px;
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.serie-destaque .descricao{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+
+.botao{
+    background-color: rgb(1, 1, 43,.40);
+    border: none;
+    color: var(--branco-azul);
+
+    padding: 12px 30px;
+    margin-right: 8px;
+    margin-left:8px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: var(--branco-azul);
+    color: var(--azul-marinho);
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.box-anime{
+    height: 100%;
+    width: 100%;
+
+    display: block;
+}
+
+.titulo-menus{
+    margin-top: 20px;
+    margin-left: 8px;
+    font-size: 20px;
+    max-width: 50%;
+    font-family: Arial, sans-serif;
+}
+
+.carrosel-recomendacao{
+
+    margin-top:8px;
+
+}
