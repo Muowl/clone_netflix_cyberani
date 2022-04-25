@@ -3,10 +3,6 @@
         display: flex;
         flex-direction: column;
     }
-    .botao{
-        margin-top: 4px;
-        width: 200px;
-    }
 }
 @media screen and (max-width:999px) {
     .descricao{

@@ -18,6 +18,7 @@ body{
     color:var(--branco-azul);
 }
 
+
 header .container-override{
     padding: 0;
     margin: 0;
@@ -56,13 +57,13 @@ header nav a:hover{
     align-items: flex-start;
 }
 .destaque-um{
-    background: linear-gradient(rgba(1,1,43,.45),rgba(1,1,43,.45)), url('../img/cover-spyx.jpg');
+    background: linear-gradient(rgba(0,0,0,.9),rgba(1,1,43,.6)), url('../img/cover-spyx.jpg');
     background-size: cover;
     height: 600px;
     
 }
 .destaque-dois{
-    background: linear-gradient(rgba(1,1,43,.45),rgba(1,1,43,.45)), url('../img/cover-steins.jpg');
+    background: linear-gradient(rgba(0,0,0,.9),rgba(1,1,43,.6)), url('../img/cover-steins.jpg');
     background-size: cover;
     height: 600px;
 }
@@ -78,14 +79,13 @@ header nav a:hover{
 .serie-destaque .descricao{
     margin-left: 10px;
     margin-top: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 
-.botao{
+.btn{
     background-color: rgb(1, 1, 43,.40);
     border: none;
-    color: var(--branco-azul);
 
     padding: 12px 30px;
     margin-right: 8px;
@@ -96,17 +96,15 @@ header nav a:hover{
     transition: .3s ease all;
 }
 
-.botao:hover{
-    background-color: var(--branco-azul);
-    color: var(--azul-marinho);
+.btn:hover{
+    background-color: rgb(1, 1, 43,.90);
 }
-
-.botao i{
+.btn i{
     margin-right: 10px;
 }
 
 .box-anime{
-    height: 100%;
+    max-height: 440px;
     width: 100%;
 
     display: block;
