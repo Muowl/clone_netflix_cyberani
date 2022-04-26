@@ -12,8 +12,14 @@ body{
 .container-sm{
     max-width: 50%;
 }
+
 .form-control{
-    background-color: whitesmoke;
+    background-color: rgb(15, 22, 85);
+    color: var(--azul-ciano);
+}
+
+#floatingInput,#floatingPassword{
+    background-color: rgb(15, 22, 85);
     color: var(--azul-ciano);
 }
 

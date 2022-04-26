@@ -1,25 +1,25 @@
-:root{
-    --azul-marinho:#01012b;
-    --azul-ciano:#05d9e8;
-    --branco-azul:#d1f7ff;
+:root {
+    --azul-marinho: #01012b;
+    --azul-ciano: #05d9e8;
+    --branco-azul: #d1f7ff;
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* Base */
-body{
+body {
     background-color: var(--azul-marinho);
     font-family: 'Lato', sans-serif;
-    color:var(--branco-azul);
+    color: var(--branco-azul);
 }
 
 
-header .container-override{
+header .container-override {
     padding: 0;
     margin: 0;
     display: flex;
@@ -28,33 +28,34 @@ header .container-override{
     justify-content: space-between;
 }
 
-header .logo{
+header .logo {
     margin-left: 10px;
     color: var(--azul-ciano);
     font-family: 'Turret Road', cursive;
     font-size: 50px;
 }
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: var(--branco-azul);
     margin-right: 8px;
 }
 
-header nav a:hover{
-    color:whitesmoke;
+header nav a:hover {
+    color: whitesmoke;
 }
 
-.dropdown-menu{
-    background-color:#005678;
+.dropdown-menu {
+    background-color: #005678;
 }
-.dropdown-item{
+
+.dropdown-item {
     color: var(--branco-azul);
 }
 
 /* Series */
 
-.serie-destaque{
+.serie-destaque {
     font-size: 18px;
     color: var(--branco-azul);
 
@@ -63,60 +64,64 @@ header nav a:hover{
     justify-content: center;
     align-items: flex-start;
 }
-.destaque-um{
-    background: linear-gradient(rgba(0,0,0,.95),rgba(1,1,43,.70)), url('../img/cover-spyx.jpg');
+
+.destaque-um {
+    background: linear-gradient(rgba(0, 0, 0, .95), rgba(1, 1, 43, .70)), url('../img/cover-spyx.jpg');
     background-size: cover;
     height: 600px;
-    
+
 }
-.destaque-dois{
-    background: linear-gradient(rgba(0,0,0,.95),rgba(1,1,43,.70)), url('../img/cover-steins.jpg');
+
+.destaque-dois {
+    background: linear-gradient(rgba(0, 0, 0, .95), rgba(1, 1, 43, .70)), url('../img/cover-steins.jpg');
     background-size: cover;
     height: 600px;
 }
 
 
-.serie-destaque .titulo{
+.serie-destaque .titulo {
     margin-left: 10px;
     margin-top: 5%;
     font-size: 40px;
     font-family: Arial, sans-serif;
 }
 
-.serie-destaque .descricao{
+.serie-destaque .descricao {
     margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 40px;
 }
 
 
-.btn{
-    background-color: rgb(1, 1, 43,.40);
+.btn {
+    background-color: rgb(1, 1, 43, .40);
     border: none;
 
     padding: 12px 30px;
     margin-right: 8px;
-    margin-left:8px;
+    margin-left: 8px;
     font-size: 12px;
 
     cursor: pointer;
     transition: .3s ease all;
 }
 
-.btn:hover{
-    background-color: rgb(1, 1, 43,.90);
+.btn:hover {
+    background-color: rgba(1, 1, 43, .90);
 }
-.btn i{
+
+.btn i {
     margin-right: 10px;
 }
 
-.box-anime{
-    max-height: 440px;
-    width: 100%;
+.box-anime {
+    max-height: 80%;
+    max-width: 100%;
     display: block;
 }
 
-.titulo-menus{
+
+.titulo-menus {
     margin-top: 20px;
     margin-left: 8px;
     font-size: 20px;
@@ -124,15 +129,16 @@ header nav a:hover{
     font-family: Arial, sans-serif;
 }
 
-.carrosel-recomendacao{
+.carrosel-recomendacao {
 
-    margin-top:8px;
+    margin-top: 8px;
 
 }
 
-footer .nav-link{
+footer .nav-link {
     color: var(--branco-azul);
 }
-footer .nav-link:hover{
-    color:whitesmoke;
+
+footer .nav-link:hover {
+    color: whitesmoke;
 }
