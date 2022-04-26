@@ -1,0 +1,23 @@
+:root{
+    --azul-marinho:#01012b;
+    --azul-ciano:#05d9e8;
+    --branco-azul:#d1f7ff;
+}
+
+body{
+    background-color: var(--azul-marinho);
+    color: var(--azul-ciano);
+}
+
+.container-sm{
+    max-width: 50%;
+}
+.form-control{
+    background-color: whitesmoke;
+    color: var(--azul-ciano);
+}
+
+.btn{
+    background-color:#005678;
+    color: var(--branco-azul);
+}

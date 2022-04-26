@@ -45,6 +45,13 @@ header nav a:hover{
     color:whitesmoke;
 }
 
+.dropdown-menu{
+    background-color:#005678;
+}
+.dropdown-item{
+    color: var(--branco-azul);
+}
+
 /* Series */
 
 .serie-destaque{
@@ -57,13 +64,13 @@ header nav a:hover{
     align-items: flex-start;
 }
 .destaque-um{
-    background: linear-gradient(rgba(0,0,0,.9),rgba(1,1,43,.6)), url('../img/cover-spyx.jpg');
+    background: linear-gradient(rgba(0,0,0,.95),rgba(1,1,43,.70)), url('../img/cover-spyx.jpg');
     background-size: cover;
     height: 600px;
     
 }
 .destaque-dois{
-    background: linear-gradient(rgba(0,0,0,.9),rgba(1,1,43,.6)), url('../img/cover-steins.jpg');
+    background: linear-gradient(rgba(0,0,0,.95),rgba(1,1,43,.70)), url('../img/cover-steins.jpg');
     background-size: cover;
     height: 600px;
 }
@@ -121,4 +128,11 @@ header nav a:hover{
 
     margin-top:8px;
 
+}
+
+footer .nav-link{
+    color: var(--branco-azul);
+}
+footer .nav-link:hover{
+    color:whitesmoke;
 }
